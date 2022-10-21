@@ -7,13 +7,6 @@
   color: var(--color);
 }
 
-body,
-html,
-section {
-  overflow: hidden;
-  white-space: wrap;
-  word-break: break-word;
-}
 
 :root {
   --roundfont-family: "Varela Round", sans-serif;
