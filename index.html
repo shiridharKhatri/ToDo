@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c7b5815651.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To Do Note</title>
+  </head>
+  <body>
+    <section class="container">
+      <h2><i class="fa-solid fa-notes-medical"></i> To Do</h2>
+      <h1 id="switchMode"><i class="fa-solid fa-sun"></i></h1>
+      <textarea id="text" placeholder="Type Your List...."></textarea>
+      <div class="btns">
+        <button id="btnAddNote">
+          <i class="fa-solid fa-plus"></i> Add Note
+        </button>
+        <button onclick="removeAll()" id="btnAddNoteTwo">
+          <i class="fa-solid fa-trash"></i> Remove All
+        </button>
+      </div>
+      <!-- <hr /> -->
+      <div class="cont2" id="noteCont">
+        <h3>Your Notes <i class="fa-solid fa-book"></i></h3>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
